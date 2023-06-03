@@ -1,0 +1,173 @@
+*{
+    font-family: 'Oxygen', sans-serif;
+}
+
+div.navbar {
+background-color:hsl(221, 100%, 66%);
+border:none;
+}
+div.navbar a.navbar-brand {
+    color:white;
+}
+div.navbar a.navbar-brand:hover{
+    color:white;
+}
+
+div.navbar ul.nav li a {
+    color:white;
+}
+div.navbar ul.nav li a:hover{
+    background-color:rgb(4, 91, 206);
+    color:white;
+}
+
+div.header {
+    background:url("../img/services-list-banner.jpg") no-repeat center center;
+    background-size: cover;
+    padding:90px 0px 90px 0px;
+}
+div.header h1 {
+    font-size:31px;
+    color:white;
+    font-weight: bold;
+}
+
+div.header h3 {
+    font-size: 24px;
+    margin: 0;
+    color: white;
+}
+
+div.header p {
+    color:white;
+    text-align: justify;
+    font-size:20px;
+}
+
+div.about {
+    padding:60px 0px 60px;
+}
+div.about h2 {
+    padding:10px 0px 10px;
+}
+
+div.services {
+    background-color:hsl(221, 100%, 66%);
+    padding:60px 0px 60px;
+    color:white;
+}
+div.services img {
+    padding-top:40px;
+}
+div.services p {
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+/*logo*/
+div.logo {
+    padding:60px 0px 60px;
+}
+
+div.screenshot {
+    background-color:hsl(221, 100%, 66%);
+    padding:90px 0px 90px;
+
+    
+}
+
+div.contact {
+    padding:60px 0px 60px;
+}
+div.footer{
+    background-color:black;
+    color:white;
+    padding:20px 0px 20px;
+}
+
+/* Carousel code starts */
+.carousel {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slides-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+}
+
+.caption h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.caption p {
+    font-size: 16px;
+    margin: 5px 0 0;
+}
+
+.arrows {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    pointer-events: none;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.arrow-left {
+    margin-left: 20px;
+}
+
+.arrow-right {
+    margin-right: 20px;
+}
+
+/* Carousel code ends */
