@@ -8,6 +8,7 @@ border:none;
 }
 div.navbar a.navbar-brand {
     color:white;
+    font-weight: bold;
 }
 div.navbar a.navbar-brand:hover{
     color:white;
@@ -171,3 +172,15 @@ div.footer{
 }
 
 /* Carousel code ends */
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}

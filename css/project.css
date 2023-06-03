@@ -86,11 +86,33 @@ nav ul li {
 /* Footer styles */
 footer {
     background-color: #333;
-    color: #fff;
+    color: white;
     padding: 20px;
     text-align: center;
 }
 
 footer p {
     font-size: 14px;
+    color: #fff;
 }
+
+/* Navbar styles */
+div.navbar {
+    background-color:hsl(221, 100%, 66%);
+    border:none;
+    }
+    div.navbar a.navbar-brand {
+        color:white;
+        font-weight: bold;
+    }
+    div.navbar a.navbar-brand:hover{
+        color:white;
+    }
+    
+    div.navbar ul.nav li a {
+        color:white;
+    }
+    div.navbar ul.nav li a:hover{
+        background-color:rgb(4, 91, 206);
+        color:white;
+    }
