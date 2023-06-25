@@ -100,33 +100,20 @@ footer p {
 div.navbar {
     background-color:hsl(221, 100%, 66%);
     border:none;
-    }
-    div.navbar a.navbar-brand {
-        color:white;
-        font-weight: bold;
-    }
-    div.navbar a.navbar-brand:hover{
-        color:white;
-    }
-    
-    div.navbar ul.nav li a {
-        color:white;
-    }
-    div.navbar ul.nav li a:hover{
-        background-color:rgb(4, 91, 206);
-        color:white;
-    }
+}
+div.navbar a.navbar-brand {
+    color:white;
+    font-weight: bold;
+}
+div.navbar a.navbar-brand:hover{
+    color:white;
+}
 
-    .iframe-container{
-        position: relative;
-        width: 100%;
-        padding-bottom: 56.25%; 
-        height: 0;
-      }
-      .iframe-container iframe{
-        position: absolute;
-        top:0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-      }
+div.navbar ul.nav li a {
+    color:white;
+}
+div.navbar ul.nav li a:hover{
+    background-color:rgb(4, 91, 206);
+    color:white;
+}
+
